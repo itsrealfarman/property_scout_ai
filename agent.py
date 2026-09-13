@@ -11,7 +11,7 @@ import json
 from groq import Groq
 from tools import TOOL_SCHEMAS, TOOL_FUNCTIONS
 
-MODEL_ID = "llama-3.3-70b-versatile"  # fast + solid tool-calling on Groq
+MODEL_ID = "openai/gpt-oss-120b"  # fast + solid tool-calling on Groq
 
 GUARDRAIL_RULES = """
 SAFETY & HONESTY GUARDRAILS (follow these strictly):
